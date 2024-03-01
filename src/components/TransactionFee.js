@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import './TransactionFee.css';
 export default function TransactionFee() {
   const [feeData, setFeeData] = useState(null);
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import './DifficultyAdjustment.css';
 export default function DifficultyAdjustment() {
   const [difficultyData, setDifficultyData] = useState(null);
 
